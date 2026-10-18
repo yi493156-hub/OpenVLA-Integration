@@ -1,0 +1,12 @@
+# OpenVLA GPU deployment candidate dependencies
+# Validate versions against the official OpenVLA repository
+# and the selected NVIDIA CUDA/PyTorch environment.
+# Install CUDA-compatible PyTorch separately first.
+
+transformers==4.40.1
+accelerate
+safetensors
+Pillow
+numpy
+timm
+einops
